@@ -1,0 +1,91 @@
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    border-width: 1px;
+}
+.button:active {
+    background-color: aquamarine;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #333; /* 加上背景色以便更清晰看到效果 */
+    z-index: 1000; /* 確保header在最上層 */
+}
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.navbar .menu-links {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 1s ease;
+}
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+.headline {
+    font-size: 30px;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(247, 165, 230)), to(#ffe39b));
+}
+.label_align {
+    display: flex;
+    justify-content: center;
+    padding-top: 58px; /* 缩小 padding-top */
+}
+.label_align + .label_align {
+    margin-top: 10px; /* 缩小 margin-top */
+}
+#drinkInfo {
+    text-align: center;
+    margin-top: 20px;
+}
+#drinkName {
+    font-size: 24px;
+}
+#drinkDescription {
+    margin-top: 10px;
+}
+.button3 {
+    text-align: center;
+}
+.button3:active {
+    background-color: bisque;
+    transition: 1s;
+}
+.to-main-page {
+    width: 120px;
+    height: 50px;
+    border-radius: 18px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgb(19, 25, 215);
+    border-width: 1px;
+    background-color: rgb(39, 187, 237);
+    font-weight: 800;
+}
+.container1 {
+    background-image: url('page222.png');
+    background-position: center;
+    background-repeat: no-repeat; /* 使用 no-repeat 防止背景图重复 */
+    background-size: cover; /* 使用 cover 确保背景图覆盖整个容器 */
+    width: 100%; /* 固定宽度 */
+    height: 100vh; /* 固定高度 */
+}

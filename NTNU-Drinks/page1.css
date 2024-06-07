@@ -1,0 +1,73 @@
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            z-index: 1000;
+        }
+        
+        header .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h3, h4 {
+            font-weight: 800;
+        }
+        li{
+            list-style-type: none;
+        }
+
+        .navbar a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            transition: 1s ease;
+        }
+        
+        .navbar a:hover {
+            color: rgb(0, 0, 0);
+        }
+        
+        .container {
+            text-align: center;
+            padding-top: 110px;
+            width: 100%; /* 固定寬度 */
+            height: 100vh; /* 固定高度 */
+            background-image: url('page11.gif');
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+        }
+        
+        #considerationList {
+            margin-bottom: 20px;
+        }
+        
+        .button {
+            text-align: center;
+        }
+        
+        .navbar .menu-links {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+        }
+        
+        .to-main-page {
+            width: 120px;
+            height: 50px;
+            border-radius: 18px;
+            cursor: pointer;
+            border-style: solid;
+            border-color: rgb(19, 25, 215);
+            border-width: 1px;
+            background-color: rgb(39, 187, 237);
+            font-weight: 800;
+        }
+
+
